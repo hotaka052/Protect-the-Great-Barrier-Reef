@@ -1,0 +1,17 @@
+"ssd":
+  "ssd_layers": [256, 512, 128, 256, 128, 256, 128, 512]
+  "multibox": [512, 1024, 512, 256, 256, 512]
+  "bbox_num": [4, 6, 6, 6, 4, 4]
+  "dssd_layers":
+    "kernel_size_list": [3, 1, 2, 2, 2]
+    "channel_list": [256, 256, 512, 1024, 512]
+  "pretrained": true
+"dbox":
+  "input_size": 320
+  "feature_maps": [40, 20, 10, 5, 3, 1]
+  "steps": [8, 16, 32, 64, 100, 300]
+  "min_sizes": [30, 60, 111, 162, 213, 264]
+  "max_sizes": [60, 111, 162, 213, 264, 315]
+  "aspect_ratios": [[2], [2, 3], [2, 3], [2, 3], [2], [2]]
+"seed": 71
+"vgg_weight_path": null

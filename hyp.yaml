@@ -1,0 +1,8 @@
+"loss":
+    "neg_pos": 3
+"scheduler":
+    "patience": 5
+    "factor": 0.2
+"epochs": 150
+"es_patience": 15
+"lr": 1.e-4
